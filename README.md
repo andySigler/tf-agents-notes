@@ -4,10 +4,10 @@ There's no guide for TF-Agents, other than some notebooks on their repo. So, her
 
 I anticipate the TF-Agents team will have some documentation in the near future, so this is mainly for me as I begin to try and figure out how to use this while teaching myself RL.
 
-  - [Concepts](#Concepts)
-    - [Interactions](#Interactions)
-    - [Agents](#Agents)
-    - [Data Types](#data-types)
+  - [Concepts](./concepts.md)
+    - [Interactions](./concepts.md#Interactions)
+    - [Agents](./concepts.md#Agents)
+    - [Data Types](./concepts.md#data-types)
   - [Modules](#Modules)
     - [tf_agents.specs](#tf_agentsspecs)
     - [tf_agents.trajectories](#tf_agentstrajectories)
