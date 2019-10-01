@@ -1,21 +1,21 @@
-# Contents
+# TF-Agents Notes
 
   - [Concepts](./concepts.md)
     - [Interactions](./concepts.md#Interactions)
     - [Agents](./concepts.md#Agents)
     - [Data Types](./concepts.md#data-types)
-  - [Modules](#Modules)
-    - [tf_agents.specs](#tf_agentsspecs)
-    - [tf_agents.trajectories](#tf_agentstrajectories)
-    - [tf_agents.replay_buffers](#tf_agentsreplay_buffers)
-    - [tf_agents.environments](#tf_agentsenvironments)
-    - [tf_agents.agents](#tf_agentsagents)
-    - [tf_agents.drivers](#tf_agentsdrivers)
-    - [tf_agents.policies](#tf_agentspolicies)
-    - [tf_agents.networks](#tf_agentsnetworks)
-    - [tf_agents.metrics](#tf_agentsmetrics)
-    - [tf_agents.utils](#tf_agentsutils)
-    - [tf_agents.distributions](#tf_agentsdistributions)
+  - [Modules](./modules.md)
+    - [tf_agents.specs](./tfagents_specs.md)
+    - [tf_agents.trajectories](./tfagents_trajectories.md)
+    - [tf_agents.replay_buffers](./tfagents_replay_buffers.md)
+    - [tf_agents.environments](./tfagents_environments.md)
+    - [tf_agents.agents](./tfagents_agents.md)
+    - [tf_agents.drivers](./tfagents_drivers.md)
+    - [tf_agents.policies](./tfagents_policies.md)
+    - [tf_agents.networks](./tfagents_networks.md)
+    - [tf_agents.metrics](./tfagents_metrics.md)
+    - [tf_agents.utils](./tfagents_utils.md)
+    - [tf_agents.distributions](./tfagents_distributions.md)
 
 # Concepts
 

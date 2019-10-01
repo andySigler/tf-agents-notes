@@ -1,9 +1,5 @@
 # TF-Agents Notes
 
-There's no guide for TF-Agents, other than some notebooks on their repo. So, here's my attempt at making something for myself to document and learn from.
-
-I anticipate the TF-Agents team will have some documentation in the near future, so this is mainly for me as I begin to try and figure out how to use this while teaching myself RL.
-
   - [Concepts](./concepts.md)
     - [Interactions](./concepts.md#Interactions)
     - [Agents](./concepts.md#Agents)
@@ -20,3 +16,5 @@ I anticipate the TF-Agents team will have some documentation in the near future,
     - [tf_agents.metrics](./tfagents_metrics.md)
     - [tf_agents.utils](./tfagents_utils.md)
     - [tf_agents.distributions](./tfagents_distributions.md)
+
+# `tf_agents.policies`
