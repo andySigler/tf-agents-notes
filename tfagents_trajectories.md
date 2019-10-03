@@ -63,6 +63,7 @@ Defined in `tf_agents.trajectories.policy_step.PolicyStep`, this data structure 
 A named tuple, it contains the following numpy arrays (or tensor or nest):
 
   - `PolicyStep().action`
+    - this can also be a `tf.distribution`, if returned from a call to `.distribution(time_step)`
   - `PolicyStep().state` (aka policy state)
   - `PolicyStep().info`
 

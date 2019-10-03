@@ -47,9 +47,32 @@ Shared attributes among all `TFAgent` instances are:
 
 (needs a brief summary for each)
 
-  - `tf_agents.agents.DdpgAgent`
-  - `tf_agents.agents.DqnAgent`
-  - `tf_agents.agents.PPOAgent`
+### On-Policy (Policy Gradient)
+
   - `tf_agents.agents.ReinforceAgent`
-  - `tf_agents.agents.SacAgent`
+    - `actor_network`
+    - `value_network` (optional)
+  - `tf_agents.agents.PPOAgent`
+    - `actor_net`
+    - `value_net`
+
+### Off-Policy (Value Function)
+
+  - `tf_agents.agents.DqnAgent`
+    - `q_network`
+  - `tf_agents.agents.dqn.dqn_agent.DdqnAgent`
+    - `q_network`
+
+### Hybrid (Actor-Critic)
+
+  - `tf_agents.agents.DdpgAgent`
+    - `actor_network`
+    - `critic_network`
   - `tf_agents.agents.Td3Agent`
+    - `actor_network`
+    - `critic_network`
+  - `tf_agents.agents.SacAgent`
+    - `actor_network`
+    - `critic_network`
+
+

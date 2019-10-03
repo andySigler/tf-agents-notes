@@ -18,3 +18,5 @@
     - [tf_agents.distributions](./tfagents_distributions.md)
 
 # `tf_agents.utils`
+
+There are quite a few util functions and classes here. I'll write them down as I find them useful.
