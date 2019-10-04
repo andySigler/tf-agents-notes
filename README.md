@@ -4,38 +4,32 @@ There's no guide for TF-Agents, other than some notebooks on their repo. So, her
 
 I anticipate the TF-Agents team will have some documentation in the near future, so this is mainly for me as I begin to try and figure out how to use this while teaching myself RL.
 
----
+## Concepts
 
-## Contents
+- [Interactions](./concepts.md#Interactions)
+- [Data Types](./concepts.md#data-types)
 
-### Concepts
+## Algorithms
 
-- [Interactions](concepts.md#Interactions)
-- [Agents](concepts.md#Agents)
-- [Data Types](concepts.md#data-types)
+- [REINFORCE](./algorithms.md#reinforce)
+- [PPO](./algorithms.md#ppo)
+- [DQN](./algorithms.md#dqn)
+- [DDQN](./algorithms.md#ddqn)
+- [DDPG](./algorithms.md#ddpg)
+- [TD3](./algorithms.md#td3)
+- [SAC](./algorithms.md#sac)
 
-### Algorithms
+## Modules
 
-- [REINFORCE](algorithms.md#reinforce)
-- [PPO](algorithms.md#ppo)
-- [DQN](algorithms.md#dqn)
-- [DDQN](algorithms.md#ddqn)
-- [DDPG](algorithms.md#ddpg)
-- [TD3](algorithms.md#td3)
-- [SAC](algorithms.md#sac)
+- [Specs](./modules/specs.md)
+- [Trajectories](./modules/trajectories.md)
+- [Replay_buffers](./modules/replay_buffers.md)
+- [Environments](./modules/environments.md)
+- [Agents](./modules/agents.md)
+- [Drivers](./modules/drivers.md)
+- [Policies](./modules/policies.md)
+- [Networks](./modules/networks.md)
+- [Metrics](./modules/metrics.md)
+- [Utils](./modules/utils.md)
+- [Distributions](./modules/distributions.md)
 
-### Modules
-
-- [Specs](modules/specs.md)
-- [Trajectories](modules/trajectories.md)
-- [Replay_buffers](modules/replay_buffers.md)
-- [Environments](modules/environments.md)
-- [Agents](modules/agents.md)
-- [Drivers](modules/drivers.md)
-- [Policies](modules/policies.md)
-- [Networks](modules/networks.md)
-- [Metrics](modules/metrics.md)
-- [Utils](modules/utils.md)
-- [Distributions](modules/distributions.md)
-
----
