@@ -28,8 +28,6 @@
 
   - That `action` is then sent into the `environment`, which of course then returns a brand new `time_step`.
 
-## Agents
-
 The `agent` can choose each `action` to either:
 
   1. increase the likelyhood of getting the most rewards from the `time_step` (using the `agent.policy`)
@@ -40,6 +38,12 @@ While collecting data from the environment, the `agent` will store three things 
 There are then implementation differences between the different algorithms, and many points at which the `agent` is configurable, all of which it would seem require a deeper knowledge of the tools and what you are trying to Learn.
 
 ## Data Types
+
+There seem to be found main data types used in the library, each listed below.
+
+These basic data types are then organized into named tuples throughout TF-Agents, to facilitate the interactions described above.
+
+In addition, `specs` are used throughout the code to describe these data types while instantiating a class.
 
 ### Observation
 
