@@ -12,6 +12,8 @@ I anticipate the TF-Agents team will have some documentation in the near future,
 ## Algorithms
 
 - [REINFORCE](./algorithms.md#reinforce)
+- [Actor-Critic](./algorithms.md#actor-critic)
+- [Off-Policy Policy Gradient](./algorithms.md#off-policy-policy-gradient)
 - [PPO](./algorithms.md#ppo)
 - [DQN](./algorithms.md#dqn)
 - [DDQN](./algorithms.md#ddqn)
