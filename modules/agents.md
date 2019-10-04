@@ -58,6 +58,8 @@ Shared attributes among all `TFAgent` instances are:
 
 ### Off-Policy (Value Function)
 
+Note: DQN works only with discrete action spaces
+
   - `tf_agents.agents.DqnAgent`
     - `q_network`
   - `tf_agents.agents.dqn.dqn_agent.DdqnAgent`

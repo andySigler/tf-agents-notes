@@ -19,10 +19,6 @@
 
 # Concepts
 
-TF-Agents is a library which uses Tensorflow's neural networking abilities to learn RL policies. That is, it maps an `environment`'s state to an `agent`'s `action`, within that `environment`, using a neural net.
-
-I'm not yet quite clear on where specific things fit within this system, like RL rewards and NN loss functions. That stuff hasn't been explicitly described in the TF-Agents example notebooks, since the point of their code is to hide that away...
-
 ## Interactions
 
   - An `environment` (traditionally made using OpenAI Gym, or using their `tf_agents.environments` options) returns a `time_step`.
